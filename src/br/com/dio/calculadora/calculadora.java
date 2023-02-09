@@ -16,7 +16,7 @@ public class calculadora {
         int somar = somar(a, b);
         int subtrair = subtrair(a, b);
         int multiplicar = multiplicar(a, b);
-        int dividir = dividir(a, b);
+        float dividir = dividir(a, b);
 
         System.out.println("somar: " + somar);
         System.out.println("subt.: " + subtrair);
@@ -37,7 +37,7 @@ public class calculadora {
         return a * b;
     }
 
-    public static int dividir(int a, int b){
+    public static float dividir(float a, float b){
         return a / b;
     }
 }
